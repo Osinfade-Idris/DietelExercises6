@@ -4,7 +4,7 @@ public class ParkingCharges {
         System.out.printf("$%.2f%n",calculateCharges(24));
         System.out.printf("$%.2f%n",calculateCharges(13));
         System.out.printf("$%.2f%n",calculateCharges(2));
-        System.out.printf("$%.2f%n",calculateCharges(48));
+        System.out.printf("$%.2f%n",calculateCharges(0));
     }
 
     public static double calculateCharges(int hoursParked) {
@@ -18,7 +18,6 @@ public class ParkingCharges {
         if(hoursParked==24){
             garageCharges=10.00;
         }
-
         return garageCharges;
     }
 }
